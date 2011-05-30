@@ -1,3 +1,8 @@
+<?php
+
+/**
+  *
+  */
 class MySQLi_ResultWrapper extends MySQLi_Result implements Iterator, ArrayAccess, Countable
 {
     private $_pointer = 0;
@@ -150,4 +155,6 @@ class MySQLi_ResultWrapper extends MySQLi_Result implements Iterator, ArrayAcces
     {
         $this->close();
     }
-} 
+}
+
+?> 

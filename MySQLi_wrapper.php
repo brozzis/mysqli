@@ -1,3 +1,5 @@
+<?php
+
 class MySQLiWrapper extends MySQLi
 {
    
@@ -58,3 +60,6 @@ class MySQLiWrapper extends MySQLi
         $this->close();
     }
 } 
+
+
+?>
