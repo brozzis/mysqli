@@ -1,4 +1,6 @@
 
+
+
 class MySQLi_ResultWrapper extends MySQLi_Result implements Iterator, ArrayAccess, Countable
 
 {
